@@ -60,6 +60,28 @@ export function createLinkedList() {
   }
 
   function insertBeforePosition(newData, position) {
+    if (position <= 0 || head == null) {
+      insertHead(newData)
+      return head;
+    }
+
+    let prev = head;
+    let curr = head;
+    let i = 0;
+    
+    while (curr != null && i < position) {
+      prev = curr;
+      curr = curr.next;
+      i++;
+    }
+
+    // FOund node to insert 
+    const newNode = {
+      data: newData,
+      next: curr,
+    }
+    prev.next = newNode;
+
     return head;
   }
 
