@@ -15,7 +15,10 @@ We utilize [**Jest**](https://jestjs.io/) as our testing framework for validatin
 To run the tests locally, ensure **Jest** is installed as a development dependency:
 
 ## **Bash**
-```bash npm install --save-dev jest
+
+```console
+npm install --save-dev jest
+```
 Then, you can run the tests using the following command:
 # npm run test
 ## **Contributing**
