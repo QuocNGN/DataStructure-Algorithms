@@ -17,13 +17,14 @@ To run the tests locally, ensure **Jest** is installed as a development dependen
 ## **Bash**
 
 ```console
-npm install --save-dev jest
+npm install
 ```
 Then, you can run the tests using the following command:
-# npm run test
-## **Contributing**
-Contributions to this repository are welcome! If you have additional exercises or improvements to existing ones, feel free to open a pull request. Please ensure that any new code is well-tested and follows the existing coding style and conventions.
-License
-This project is licensed under the MIT License.
+```console
+npm run test
+```
+## **Extensions**
++ Jest
++ Jest Runner
++ Jest Snippets
 
-* Markdown sẽ tự động chuyển đổi các phần văn bản được đánh dấu bằng cú pháp vào định dạng phù hợp, như in đậm (`**...**`), chữ nhỏ (`**...**`), và mã lệnh (ba dấu nháy ngắn ```).
