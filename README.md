@@ -8,31 +8,17 @@ This repository contains a collection of exercises focused on Data Structures an
 
 The repository is structured into directories, each representing a different topic or category of exercises. Inside each directory, you'll find the exercise descriptions along with starter code files where you can implement your solutions.
 
-/src
-│
-├── arrays
-│ ├── exercise1.js
-│ ├── exercise2.js
-│ └── ...
-│
-├── linked-lists
-│ ├── exercise1.js
-│ ├── exercise2.js
-│ └── ...
-│
-└── ...
-
 ## **Testing**
 
 We utilize [**Jest**](https://jestjs.io/) as our testing framework for validating the correctness of the implemented solutions. **Jest** provides a simple and effective way to write tests in JavaScript.
 
 To run the tests locally, ensure **Jest** is installed as a development dependency:
 
-
-```# npm install --save-dev jest
+## **Bash**
+# npm install --save-dev jest
 Then, you can run the tests using the following command:
-```# npm run test
-Contributing
+# npm run test
+## **Contributing**
 Contributions to this repository are welcome! If you have additional exercises or improvements to existing ones, feel free to open a pull request. Please ensure that any new code is well-tested and follows the existing coding style and conventions.
 License
 This project is licensed under the MIT License.
